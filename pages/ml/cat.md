@@ -3,18 +3,18 @@
 > ഒരു ഫയലിന്റെ ഉള്ളടക്കം പ്രദർശിപ്പിക്കുക.
 > കൂടുതൽ വിവരം: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
-- ഒരു ഫയലിന്റെ ഉള്ളടക്കം ടേർമിനലിൽ കാണിക്കുക:
+- Display a file's content:
 
 `cat {{ഫയൽ}}`
 
-- ഒന്നിലധികം ഫയലുകളുടെ ഉള്ളടക്കം പ്രദർശിപ്പിക്കുക:
+- Display multiple files:
 
 `cat {{ഫയൽ1}} {{ഫയൽ2}}`
 
-- വരി നമ്പറുകൾ ചേർത്ത് കാണിക്കുക:
+- Display line numbers:
 
 `cat -n {{ഫയൽ}}`
 
-- ഒരു ഫയലിന്റെ ഉള്ളടക്കം മറ്റൊന്നിലേക്ക് എഴുതുക:
+- Write one file into another:
 
 `cat {{ഫയൽ1}} > {{ഫയൽ2}}`
